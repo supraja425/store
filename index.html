@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body onload="showProducts()">
+    <div class="header">
+    <h1>My Store</h1>
+    <div class="hc">
+    <h4 onclick="hideCart()" >Home</h4>
+    <h4 onclick="displayCart()" id="c">Cart <span id='items'></span></h4>
+  </div>
+  </div>
+    <hr />
+<div id="productBox">
+    <!-- <h3>Products</h3> -->
+    <div id="divProducts"></div>
+</div>
+
+    <div id="cartBox" style="display:none">
+    <h3>My Cart</h3>
+    <div id="divCart"></div>
+    <h4>Order Value: <span id='order'></span></h4>
+    <button onclick="hideCart()"> close</button>
+    </div>
+    <hr>
+    <h4>@Copyrights 2025, All rights Reserved</h4>
+  </body>
+</html>
