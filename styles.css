@@ -23,7 +23,7 @@
     padding: 10px;
   }
   .hc{
-    justify-content: right;
+    justify-content:space-between;
     display: flex;
     padding: 10px;
     cursor: pointer;
